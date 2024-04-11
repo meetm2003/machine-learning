@@ -1,0 +1,41 @@
+employee_id,age,education_level,years_experience,position,salary
+1,35,Bachelor's Degree,10,Senior Software Engineer,100000
+2,28,Master's Degree,5,Software Engineer,80000
+3,40,High School Diploma,15,Project Manager,120000
+4,45,PhD,20,Principal Engineer,150000
+5,30,Bachelor's Degree,8,Data Analyst,75000
+6,38,Master's Degree,12,Senior Data Scientist,130000
+7,33,PhD,7,Research Scientist,90000
+8,29,Bachelor's Degree,4,Junior Software Engineer,60000
+9,42,Master's Degree,18,Engineering Manager,160000
+10,27,High School Diploma,3,Intern,40000
+11,32,Bachelor's Degree,9,Software Engineer,85000
+12,35,Master's Degree,12,Senior Software Engineer,110000
+13,45,Bachelor's Degree,15,Data Scientist,125000
+14,38,PhD,18,Research Director,160000
+15,42,Bachelor's Degree,20,Principal Data Engineer,140000
+16,50,Master's Degree,22,Chief Technology Officer,200000
+17,47,High School Diploma,25,Senior Project Manager,170000
+18,40,Bachelor's Degree,17,Product Manager,145000
+19,33,PhD,10,Machine Learning Engineer,130000
+20,36,Master's Degree,14,Data Architect,135000
+21,44,Bachelor's Degree,19,Software Development Manager,155000
+22,48,PhD,21,Senior Research Scientist,180000
+23,30,High School Diploma,7,Junior Data Analyst,75000
+24,37,Bachelor's Degree,16,Database Administrator,95000
+25,46,Master's Degree,20,Data Science Manager,170000
+26,39,Bachelor's Degree,18,Software Development Engineer in Test,105000
+27,49,PhD,23,Principal Machine Learning Scientist,190000
+28,31,Bachelor's Degree,9,UX/UI Designer,90000
+29,43,Master's Degree,18,Lead Data Scientist,160000
+30,34,Bachelor's Degree,12,Backend Developer,100000
+31,41,PhD,16,Artificial Intelligence Specialist,150000
+32,50,Bachelor's Degree,25,Senior Software Architect,180000
+33,47,Master's Degree,22,Director of Data Science,200000
+34,36,Bachelor's Degree,15,Frontend Developer,95000
+35,39,PhD,20,Lead Research Scientist,170000
+36,45,Bachelor's Degree,17,Software Engineering Manager,165000
+37,32,Master's Degree,8,Data Analyst,85000
+38,33,High School Diploma,10,Junior Software Engineer,70000
+39,48,Bachelor's Degree,22,Senior Database Administrator,175000
+40,30,PhD,6,Machine Learning Researcher,100000

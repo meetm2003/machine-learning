@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custcat Prediction</title>
+</head>
+<body>
+    <h1>Custcat Prediction</h1>
+    
+    <form action="/" method="post">
+        <label for="income">Income:</label>
+        <input type="number" id="income" name="income" required><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="0">Female</option>
+            <option value="1">Male</option>
+        </select><br><br>
+        
+        <button type="submit">Predict</button>
+    </form>
+    
+    {% if prediction %}
+    <h2>Predicted custcat:</h2>
+    <p>{{ prediction }}</p>
+    <img src="/static/prediction_graph.png" alt="Prediction Graph">
+    {% endif %}
+</body>
+</html>
