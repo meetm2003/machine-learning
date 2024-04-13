@@ -6,11 +6,11 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load the data
-data = pd.read_csv('boston_housing.csv')
+data = pd.read_csv('50_Startups.csv')
 
-# Define the independent variables
-X = data[['rm', 'crim', 'age']]
-y = data['medv']
+# Define the independent and dependent variables
+X = data[['R&D Spend', 'Administration', 'Marketing Spend']]
+y = data['Profit']
 
 # Fit the linear regression model
 model = LinearRegression()
@@ -30,22 +30,15 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
 # Add the data points
-x = data['rm']
-y = data['crim']
-z = data['age']
-ax.scatter(x, y, z, c='b', marker='o')
-
-# Fit a plane using model coefficients
-xx, yy = np.meshgrid(np.linspace(x.min(), x.max(), 10), np.linspace(y.min(), y.max(), 10))
-zz = model.coef_[0] * xx + model.coef_[1] * yy + model.coef_[2] * z.mean() + model.intercept_
-
-# Plot the surface
-ax.plot_surface(xx, yy, zz, alpha=0.5)
+x = data['R&D Spend']
+y = data['Administration']
+z = data['Marketing Spend']
+ax.scatter(x, y, z, c=y_pred, cmap='viridis')
 
 # Add labels and title
-ax.set_xlabel('Average Number of Rooms')
-ax.set_ylabel('Per Capita Crime Rate')
-ax.set_zlabel('Proportion of Owner-Occupied Units Built Prior to 1940')
+ax.set_xlabel('R&D Spend')
+ax.set_ylabel('Administration')
+ax.set_zlabel('Marketing Spend')
 plt.title('Multiple Linear Regression')
 
 # Show the plot

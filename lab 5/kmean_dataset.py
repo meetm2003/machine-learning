@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.cluster import KMeans 
 
-df = pd.read_csv('iris.csv') 
+df = pd.read_csv('D:\docs\Study-Materials-BVM-22CP308\sem 6\python ML\machine-learning\lab 5\IRIS.csv') 
 df.columns = ['X1', 'X2', 'X3', 'X4', 'Y'] 
 df = df.drop(['X4', 'X3'], axis=1) 
 
